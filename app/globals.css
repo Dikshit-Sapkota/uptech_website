@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&display=swap');
+@import "tailwindcss";
+
+body{
+  display: flex;
+  /* justify-content: center; */
+  font-family: var(--font-poppins);
+  align-items: center;
+  margin: 0%;
+  
+  
+}
+.background
+{
+  background-color: #f59f0b17 !important;
+}
+
+main
+  {
+    max-width: 1400px;
+    width: 100%;
+    padding:0px 10px;
+    align-items: center;
+    
+  }
+
+  .header_items{
+/* font-family:"Montenegrin Gothic One", serif; */
+font-family: var(--font-syne);
+  font-weight: 600;
+  font-size: 16px;
+  }
+
+  .small_heading
+  {
+    color: #f59f0bcf;
+    font-family:poppins;
+    font-size: 14px !important;
+    font-weight: bold;
+    background-color: #f59f0b17;
+    padding:5px 10px;
+    border-radius: 10px;
+  }
+  h1
+  {
+    color: rgb(0, 0, 0);
+    font-family:var(--font-syne);
+    font-size: 50px;
+    font-weight: 600;
+  }
+  h2
+  {
+    color: rgb(0, 0, 0);
+    font-family:var(--font-syne);
+    font-size: 40px;
+    font-weight: 600;
+  }
+  p
+  {
+    font: 500;
+    color: black;
+    font-size: 20px;
+    font-family:var(--font-poppins);
+  }
+
+
+  @media(max-width :746px)
+  {
+    h2{
+      font-size: 24px;
+    }
+    h1{
+      font-size: 28px;
+    }
+    p
+    {
+      font-size: 15px;
+    }
+    main
+    {
+    
+    }
+  }
+  
+  
+
