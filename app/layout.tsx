@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { Poppins,Syne } from "next/font/google";
+import { ToastContainer } from "react-toastify";
 const poppins = Poppins({
 
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header/>
         {children}
+        <ToastContainer/>
         <Footer/>
         </body>
     </html>
