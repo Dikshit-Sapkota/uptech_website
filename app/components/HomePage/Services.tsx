@@ -110,7 +110,7 @@ export default async function Services() {
                         </div>
                         <h3 className="font-bold text-lg!">{service.service_heading}</h3>
                         <p className="text-gray-500 md:text-sm!">{service.short_description}</p>
-                        <Link href="#" className="text-amber-600 font-bold p-1 rounded hover:bg-amber-600 hover:text-white">Learn More <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i> </Link>
+                        {/* <Link href="#" className="text-amber-600 font-bold p-1 rounded hover:bg-amber-600 hover:text-white">Learn More <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i> </Link> */}
                     </div>
                 ))}
 
